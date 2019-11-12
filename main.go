@@ -19,4 +19,8 @@ func check(approved string, ot string) {
 	if approved == test.Approved {
 		fmt.Println("You're in!", ot)
 	}
+
+	if ot == AnotherConst {
+		fmt.Println("it works")
+	}
 }
